@@ -9,7 +9,7 @@ const createAboutUs = catchAsync(async (req: Request, res: Response) => {
   sendResponse<any>(res, {
     statusCode: 200,
     success: true,
-    message: "created  successfully",
+    message: "Created  Successfully",
     data: result,
   });
 });
@@ -18,7 +18,7 @@ const getAllAboutUs = catchAsync(async (req: Request, res: Response) => {
   sendResponse<any>(res, {
     statusCode: 200,
     success: true,
-    message: "about us retrive  successfully",
+    message: "About Us Retrive Successfully",
     data: result,
   });
 });
@@ -28,7 +28,7 @@ const getSingleAboutUs = catchAsync(async (req: Request, res: Response) => {
   sendResponse<any>(res, {
     statusCode: 200,
     success: true,
-    message: "about us retrive  successfully",
+    message: "About Us Retrive Successfully",
     data: result,
   });
 });
@@ -37,7 +37,7 @@ const updateAboutUs = catchAsync(async (req: Request, res: Response) => {
   sendResponse<any>(res, {
     statusCode: 200,
     success: true,
-    message: "updateAboutUs  successfully",
+    message: "Update About Us Successfully",
     data: result,
   });
 });
@@ -46,7 +46,7 @@ const deleteAboutUs = catchAsync(async (req: Request, res: Response) => {
   sendResponse<any>(res, {
     statusCode: 200,
     success: true,
-    message: "about us  successfully",
+    message: "About Us Successfully",
     data: result,
   });
 });
@@ -57,7 +57,7 @@ const createBlog = catchAsync(async (req: Request, res: Response) => {
   sendResponse<any>(res, {
     statusCode: 200,
     success: true,
-    message: "blog created  successfully",
+    message: "Blog Created Successfully",
     data: result,
   });
 });
@@ -66,7 +66,7 @@ const getallblogs = catchAsync(async (req: Request, res: Response) => {
   sendResponse<any>(res, {
     statusCode: 200,
     success: true,
-    message: "blog retrive  successfully",
+    message: "Blog Retrive Successfully",
     data: result,
   });
 });
@@ -76,7 +76,7 @@ const getsingleBlogs = catchAsync(async (req: Request, res: Response) => {
   sendResponse<any>(res, {
     statusCode: 200,
     success: true,
-    message: "blog  retrive  successfully",
+    message: "Blog  Retrive Successfully",
     data: result,
   });
 });
@@ -85,7 +85,7 @@ const updateBlogs = catchAsync(async (req: Request, res: Response) => {
   sendResponse<any>(res, {
     statusCode: 200,
     success: true,
-    message: "blog update  successfully",
+    message: "Blog Update Successfully",
     data: result,
   });
 });
@@ -94,7 +94,7 @@ const deleteBlog = catchAsync(async (req: Request, res: Response) => {
   sendResponse<any>(res, {
     statusCode: 200,
     success: true,
-    message: "blog deleted  successfully",
+    message: "Blog deleted Successfully",
     data: result,
   });
 });
@@ -106,7 +106,7 @@ const createfaq = catchAsync(async (req: Request, res: Response) => {
   sendResponse<any>(res, {
     statusCode: 200,
     success: true,
-    message: "faq created  successfully",
+    message: "Faq Created Successfully",
     data: result,
   });
 });
@@ -115,7 +115,7 @@ const getgallfaqs = catchAsync(async (req: Request, res: Response) => {
   sendResponse<any>(res, {
     statusCode: 200,
     success: true,
-    message: "faq's retrive  successfully",
+    message: "Faq's Retrive  Successfully",
     data: result,
   });
 });
@@ -125,7 +125,7 @@ const getsinglefaqs = catchAsync(async (req: Request, res: Response) => {
   sendResponse<any>(res, {
     statusCode: 200,
     success: true,
-    message: "faq retrive successfully",
+    message: "Faq retrive successfully",
     data: result,
   });
 });
@@ -134,7 +134,7 @@ const updatefaqs = catchAsync(async (req: Request, res: Response) => {
   sendResponse<any>(res, {
     statusCode: 200,
     success: true,
-    message: "faq updated successfully",
+    message: "Faq updated successfully",
     data: result,
   });
 });
@@ -143,7 +143,7 @@ const deletefaq = catchAsync(async (req: Request, res: Response) => {
   sendResponse<any>(res, {
     statusCode: 200,
     success: true,
-    message: "faq deleted   successfully",
+    message: "Faq deleted Successfully",
     data: result,
   });
 });
